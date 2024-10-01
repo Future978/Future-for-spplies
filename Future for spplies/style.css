@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+} 
+ .container{
+    max-width: 910px;
+    margin: auto;
+
+ }
+
+
+ /* Header Classes */
+ .primary-text{
+    color: rgb(225, 225, 235);
+ }
+
+/* Header Start */
+ header{
+    height: 100vh;
+    background: url('./logo/pngtree-chinese-food-is-displayed-in-many-small-platters-picture-image_3186479.jpg') center center/cover no-repeat;
+    position: relative;
+}
+
+#navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+
+#navbar img{
+ width:100px ;
+ margin-left:-10PX;
+ 
+}
+
+
+
+
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+
+}
+
+#navbar ul li a{
+ padding: 15px 20px;
+ color: #f5efef;
+ font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid #f1ecec;
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 15px 500px;
+    height: 75vh;
+}
+header .content{
+    font-size: 18px;
+    color: #1cdf46;
+}
+header .content{
+    margin: 20px 0;
+    color: #1cdf46;
+}
+ 
+ header::before{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+ }
+
+
+
+ header *{ 
+    z-index: 10;
+ }
+/* Header end */
+/* About start  */
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about.title{
+    text-align: center; 
+    
+    margin-bottom: 6rem;
+
+}
+#about h2{
+    position: relative;
+    left: 200px;
+    font-size: 40px;
+    color: rgb(15, 209, 119);
+    margin-bottom: 20px;
+
+}
+#about.title p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 500;
+
+}
+#about.about-conten5t{
+    display: flex;
+    justify-content: space-between;
+
+}
+.parent div {
+    width: 50px;
+}
+
+.u {
+
+    position: relative;
+    left: 590px;
+    top: -70px;
+}
+.parent div {
+    width: 50px;
+}
+.p {
+
+    position: relative;
+    left: 330px;
+    top: -695px;
+}
+.parent div {
+    width: 50px;
+}
+.k {
+
+    position: relative;
+    left: 170px;
+    top: -680px;
+}
+.parent div {
+    width: 1px;
+}
+.n {
+
+    position: relative;
+    left: 690px;
+    top: -1320px;
+}
+
+.parent div {
+    width: 1px;
+}
+
+.r {
+
+    position: relative;
+    right:320px;
+}
+.parent h4 {
+    padding: 1px 1px;
+    position: relative;
+    left: 100px;
+    font-size: 15px;
+    color: rgb(76, 153, 102);
+    margin-bottom: -70px;
+    top: -10px;
+  
+} 
+
+
+
+
+.parent h5 {
+    padding: 1px 100px;
+    position: relative;
+    left: -420px;
+    font-size: 15px;
+    color:rgb(71, 71, 71);
+    margin-bottom: 20px;
+    
+}
+.parent div {
+    width:500px;
+}
+.parent h6 {
+    padding: 20px -1px ;
+    position: relative;
+    left: -321px;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 100px;
+    top: -30px;
+}
+
+/* About End */
+/*offers Start */
+#offers{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background: url('صورة/vegetable-restaurant-food-plate.jpg') center center/cover  fixed;
+  
+}
+#navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+
+#navbar img{
+ width:100px ;
+ margin-left:-10PX;
+}
+#offers h2{
+    position: relative;
+    left: -370px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    top: 109px;
+    background: #6a927e;
+    width: 51.3%;
+}
+#offers h3{
+    position: relative;
+    left: 480px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    top: 20.1px;
+    background: #6a927e;
+    width: 71.4%;
+}
+
+.l {
+
+    position: relative;
+    left: 350px;
+    top: 16px;
+}
+.wd{
+
+    position: relative;
+    left: -500px;
+    top: -293px;
+}
+.parent div {
+    width: 500px;
+}
+#offers h4{
+    position: relative;
+    left: 405px;
+    font-size: 15.7px;
+    color: rgb(59, 179, 89);
+    margin-bottom: 10px;
+    top: -300px;
+    
+}
+
+/*offers end */
